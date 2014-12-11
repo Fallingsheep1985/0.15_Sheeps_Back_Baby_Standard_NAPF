@@ -131,12 +131,15 @@ to turn the map markers on change false to true
 
 */
 if (isServer) then {
-//none added yet
+//Insel
+execVM "\z\addons\dayz_server\CustomBuildings\napf\insel.sqf";
+//Blitz Island
+execVM "\z\addons\dayz_server\CustomBuildings\napf\blitz-island.sqf";
 };
 
 // DO NOT CHANGE THIS!!
 //Repack version 
 REPACKMOD = "Epoch NAPF"; 
-BUILDNUMBER = "3";
+BUILDNUMBER = "10";
 
 
