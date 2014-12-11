@@ -42,8 +42,8 @@ dayz_fullMoonNights = true;
 dayz_spawnselection = 0;
 dayz_paraSpawn = false;
 dayz_poleSafeArea = 50; //zombie free plot poles
-dayz_minpos = -1; 
-dayz_maxpos = 16000;
+dayz_minpos = -1000; 
+dayz_maxpos = 26000;
 
 dayz_sellDistance_vehicle = 10;
 dayz_sellDistance_boat = 30;
