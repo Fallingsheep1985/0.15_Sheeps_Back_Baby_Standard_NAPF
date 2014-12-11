@@ -1,2 +1,0 @@
-//Open dialog
-createDialog "RscDisplayGuess";
