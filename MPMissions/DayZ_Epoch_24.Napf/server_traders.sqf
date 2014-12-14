@@ -92,7 +92,7 @@ menu_Dr_Annie_Baker_EP1 = [
 ];
 // North Wholesaler
 menu_RUS_Commander = [
-	[["Wholesale",555]],
+	[["Wholesale",555],["Oil",909]],
 	[],
 	"neutral"
 ];
@@ -104,7 +104,7 @@ menu_Damsel5 = [
 ];
 // West Wholesaler
 menu_TK_Special_Forces_MG_EP1 = [
-	[["Wholesale",636]],
+	[["Wholesale",636],["Oil",909]],
 	[],
 	"neutral"
 ];
