@@ -4,6 +4,8 @@
 //Server watermark
 WaterMarkScript = true; //Watermark on/off
 server_name = "0.15 NAPF"; //Watermark Text
+//No Voice Inside chat
+noVoicesidescript = true;
 //Gambling ( Slotmachine, Guessing Game)
 GambleingScript = false; // NO NAPF CASINO YET
 //Intro Music
@@ -21,9 +23,9 @@ HordeScript = true;
 //Base jump
 BaseJumpScript = true;
 //AI BUS Route
-BusRouteScript = false; // NO NAPF BUS ROUTE YET
+BusRouteScript = true;
 //Show marker for AI bus on map
-BUSmarkerScript = false; // NO NAPF BUS ROUTE YET
+BUSmarkerScript = true;
 //Custom Kill Message's
 KillMessageScript = true;
 //Weapon Mods
@@ -99,7 +101,7 @@ HeroPerkScript = true;
 //Walk amongst the dead
 WalkAmongstDeadScript = true;
 //Rob Bank
-RobBankScript = false; // NO NAPF BANK SET UP YET
+RobBankScript = true;
 //Service Points
 ServicePointScript = true;
 //Snow
@@ -160,6 +162,10 @@ if (isServer) then {
 
 //Feld
 [] ExecVM "\z\addons\dayz_server\CustomBuildings\feldmoos.sqf";
+
+
+//Oil rigs
+[] ExecVM "\z\addons\dayz_server\CustomBuildings\oilrig1.sqf";
 
 //Bank
 [] ExecVM "\z\addons\dayz_server\CustomBuildings\bank_building.sqf";
