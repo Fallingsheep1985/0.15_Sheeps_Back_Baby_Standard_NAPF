@@ -174,6 +174,6 @@ if (isServer) then {
 // DO NOT CHANGE THIS!!
 //Repack version 
 REPACKMOD = "Epoch NAPF"; 
-BUILDNUMBER = "36";
+BUILDNUMBER = "43";
 
 
